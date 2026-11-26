@@ -4,11 +4,10 @@ Extract text, labeled fields and tables from documents and images, then export t
 
 ## Install with Composer
 
-Run these commands in your application directory to install the tagged release directly from GitHub.
+Install [portpro/document-reader from Packagist](https://packagist.org/packages/portpro/document-reader) in your application directory.
 
 ```sh
-composer config repositories.portpro-document-reader vcs https://github.com/portpro-sa/document-reader
-composer require "portpro/document-reader:^0.1"
+composer require portpro/document-reader
 ```
 
 Composer checks the required PHP extensions. To process PDFs and images, install Poppler and Tesseract on the machine where PHP runs. On Ubuntu or Debian:
