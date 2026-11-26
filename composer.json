@@ -1,0 +1,40 @@
+{
+    "name": "portpro/document-reader",
+    "description": "Self-hosted text, table and labeled-field extraction for documents and images.",
+    "type": "library",
+    "require": {
+        "php": "^8.2",
+        "ext-mbstring": "*",
+        "ext-fileinfo": "*",
+        "ext-dom": "*",
+        "ext-zip": "*",
+        "symfony/process": "^6.4 || ^7.0"
+    },
+    "bin": [
+        "bin/read-document"
+    ],
+    "autoload": {
+        "psr-4": {
+            "PortPro\\DocumentReader\\": "src/"
+        }
+    },
+    "license": "MIT",
+    "keywords": [
+        "document-extraction",
+        "ocr",
+        "pdf",
+        "laravel",
+        "bill-of-lading"
+    ],
+    "homepage": "https://github.com/portpro-sa/document-reader",
+    "support": {
+        "issues": "https://github.com/portpro-sa/document-reader/issues",
+        "source": "https://github.com/portpro-sa/document-reader"
+    },
+    "scripts": {
+        "test": "phpunit --bootstrap vendor/autoload.php tests"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^11.5"
+    }
+}

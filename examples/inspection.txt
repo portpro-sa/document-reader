@@ -1,0 +1,6 @@
+Inspection ID: QC-7319
+Location: South gate
+
+Item     Count
+Cartons  14
+Pallets  2

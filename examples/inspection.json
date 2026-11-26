@@ -1,0 +1,42 @@
+{
+    "pages": [
+        {
+            "number": 1,
+            "text": "Inspection ID: QC-7319\nLocation: South gate\n\nItem     Count\nCartons  14\nPallets  2\n",
+            "fields": [
+                {
+                    "label": "Inspection ID",
+                    "value": "QC-7319"
+                },
+                {
+                    "label": "Location",
+                    "value": "South gate"
+                }
+            ],
+            "tables": [
+                [
+                    [
+                        "Item",
+                        "Count"
+                    ],
+                    [
+                        "Cartons",
+                        "14"
+                    ],
+                    [
+                        "Pallets",
+                        "2"
+                    ]
+                ]
+            ]
+        }
+    ],
+    "structured_data": null,
+    "shipping": {
+        "bill_number": null,
+        "loading_port": null,
+        "discharge_port": null,
+        "description": null,
+        "containers": []
+    }
+}
